@@ -69,39 +69,39 @@ var s36 = new Audio("../League-of-Introverts/pj song1/ငွေသော်တ�
 		s34.volume = 0.5
 		s35.volume = 0.5
 		s36.volume = 0.5
-		s11.preload
-		s22.preload
-		s33.preload
-		s44.preload
-		s55.preload
-		s66.preload
-		s77.preload
-		s88.preload
-		s99.preload
-		s00.preload
-		s12.preload
-		s13.preload
-		s14.preload
-		s15.preload
-		s16.preload
-		s17.preload
-		s18.preload
-		s19.preload
-		s20.preload
-		s21.preload
-		s23.preload
-		s24.preload
-		s25.preload
-		s26.preload
-		s27.preload
-		s28.preload
-		s29.preload
-		s30.preload
-		s31.preload
-		s32.preload
-		s34.preload
-		s35.preload
-		s36.preload
+		s11.preload = "auto";
+		s22.preload = "auto";
+		s33.preload = "auto";
+		s44.preload = "auto";
+		s55.preload = "auto";
+		s66.preload = "auto";
+		s77.preload = "auto";
+		s88.preload = "auto";
+		s99.preload = "auto";
+		s00.preload = "auto";
+		s12.preload = "auto";
+		s13.preload = "auto";
+		s14.preload = "auto";
+		s15.preload = "auto";
+		s16.preload = "auto";
+		s17.preload = "auto";
+		s18.preload = "auto";
+		s19.preload = "auto";
+		s20.preload = "auto";
+		s21.preload = "auto";
+		s23.preload = "auto";
+		s24.preload = "auto";
+		s25.preload = "auto";
+		s26.preload = "auto";
+		s27.preload = "auto";
+		s28.preload = "auto";
+		s29.preload = "auto";
+		s30.preload = "auto";
+		s31.preload = "auto";
+		s32.preload = "auto";
+		s34.preload = "auto";
+		s35.preload = "auto";
+		s36.preload = "auto";
 function song1() {
 	b=1
 	s22.pause()

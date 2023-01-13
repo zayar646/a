@@ -15,7 +15,27 @@ var s00 = document.getElementById("song00");
 var s12 = new Audio("../League-of-Introverts/pj song1/to the bone - pamungkas (guitar cover).mp3")
 var s13 = new Audio("../League-of-Introverts/pj song1/Pone Yape - မမြင့်.mp3")
 var s14 = new Audio("../League-of-Introverts/pj song1/ONLY - LEEHI (guitar cover).mp3")
-var s15 = new Audio("../League-of-Introverts/pj song1/life goes on - bts (guitar fingerstyle cover).mp3")
+var s15 = new Audio("../League-of-Introverts/pj song1/အချစ်အယူခံ (ခင်မောင်တိုး).mp3")
+var s16 = new Audio("../League-of-Introverts/pj song1/မောင့်ဆေးကျောင်းသူ_-_ ခင်မောင်ထူး_-_.mp3")
+var s17 = new Audio("../League-of-Introverts/pj song1/ဒီလိုဆိုမချစ်ဘူးကွယ် - ၀င်းဦး.mp3")
+var s18 = new Audio("../League-of-Introverts/pj song1/ချစ်ရဲ့လားလို့ ခဏခဏမေးတဲ့ မောင့်ကိုပင်.mp3")
+var s19 = new Audio("../League-of-Introverts/pj song1/ရုန်းတော်လွှတ်တော်-အေဝမ်းတင်မောင် & မေရှင်.mp3")
+var s20 = new Audio("../League-of-Introverts/pj song1/cant help falling in love x perfect (elvis, ed sheeran) - guitar fingerstyle cover.mp3")
+var s21 = new Audio("../League-of-Introverts/pj song1/Htoo eain thin - Chit Thu Lat Saung - ချစ်သူ့ လက်ဆောင်.mp3")
+var s23 = new Audio("../League-of-Introverts/pj song1/at my worst - pink sweat$ (guitar fingerstyle cover).mp3")
+var s24 = new Audio("../League-of-Introverts/pj song1/Until I Found You - Stephen Sanchez - Cover (Violin).mp3")
+var s25 = new Audio("../League-of-Introverts/pj song1/life goes on - bts (guitar fingerstyle cover).mp3")
+var s26 = new Audio("../League-of-Introverts/pj song1/Chit Thu Lan Kyar - Sai Aung Htee Khan ခ်စ္သူလမ္းၾကား - စိုင္းေအာင္ထီးခမ္း.mp3")
+var s27 = new Audio("../League-of-Introverts/pj song1/ေရဒီယုိကမာရြတ္-Radio Kamaryut.mp3")
+var s28 = new Audio("../League-of-Introverts/pj song1/မင္းသိဖို႔ေကာင္းတယ္ ေဇာ္ဝင္းရွိန္ ၁၉၈၇.mp3")
+var s29 = new Audio("../League-of-Introverts/pj song1/မိုးမိုး - ပြန်တွေးကြည့်.mp3")
+var s30 = new Audio("../League-of-Introverts/pj song1/အချစ်မျက်ဝန်း - Lလွန်းဝါ.mp3")
+var s31 = new Audio("../League-of-Introverts/pj song1/ဒူးထောက်ပြီ - ဝိုင်ဝိုင်း.mp3")
+var s32 = new Audio("../League-of-Introverts/pj song1/အေးချမ်းမေ -တစ်စစီကျိုးပဲ့နေတယ်.mp3")
+var s34 = new Audio("../League-of-Introverts/pj song1/Soe Thu - ကြည်ဖြူပါတော့ (ကြည်ဖြူပါ မေရယ်).mp3")
+var s35 = new Audio("../League-of-Introvert/pj song1/Shwe Mann Thu - Khin Maung Htoo.mp3")
+var s36 = new Audio("../League-of-Introvert/pj song1/ငွေသော်တာရောင်ခြည် (ဆရာမ) ဘိုဘိုဟန်  Ngwe thawdar yaung chi (Bo Bo Han) (Lyrics video)  #myanmarsong.mp3")
+
 		s11.volume = 0.5
 		s22.volume = 0.5
 		s33.volume = 0.5
@@ -30,6 +50,25 @@ var s15 = new Audio("../League-of-Introverts/pj song1/life goes on - bts (guitar
 		s13.volume = 0.5
 		s14.volume = 0.5
 		s15.volume = 0.5
+		s16.volume = 0.5
+		s17.volume = 0.5
+		s18.volume = 0.5
+		s19.volume = 0.5
+		s20.volume = 0.5
+		s21.volume = 0.5
+		s23.volume = 0.5
+		s24.volume = 0.5
+		s25.volume = 0.5
+		s26.volume = 0.5
+		s27.volume = 0.5
+		s28.volume = 0.5
+		s29.volume = 0.5
+		s30.volume = 0.5
+		s31.volume = 0.5
+		s32.volume = 0.5
+		s34.volume = 0.5
+		s35.volume = 0.5
+		s36.volume = 0.5
 function song1() {
 	b=1
 	s22.pause()
@@ -46,12 +85,31 @@ function song1() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s11.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ခေါင်းလောင်းလေးတွေမြည်နေပြီ - အောင်ကိုလတ်")
+		alert("You are playing (ခေါင်းလောင်းလေးတွေမြည်နေပြီ - အောင်ကိုလတ်)")
 	
 }
 function song2() {
@@ -69,12 +127,31 @@ function song2() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s22.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing တန်ဖိုးထားပါ့မယ် - ကောင်းကောင်း")
+		alert("You are playing (တန်ဖိုးထားပါ့မယ် - ကောင်းကောင်း)")
 }
 function song3() {
 	b=7
@@ -91,12 +168,31 @@ function song3() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s33.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing Yiruma, (이루마) - River Flows in You")
+		alert("You are playing (Yiruma, (이루마) - River Flows in You)")
 }
 function song4() {
 	b=10
@@ -113,12 +209,31 @@ function song4() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s44.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ခင်မောင်တိုး - လွမ်း")
+		alert("You are playing (ခင်မောင်တိုး - လွမ်း)")
 }
 function song5() {
 	b=13
@@ -135,12 +250,31 @@ function song5() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s55.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ချစ်သူသိစေ - ခင်မောင်တိုး")
+		alert("You are playing (ချစ်သူသိစေ - ခင်မောင်တိုး)")
 }
 function song6() {
 	b=16
@@ -157,12 +291,31 @@ function song6() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s66.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ငါ့ရဲ့လျှို့ဝှက်ချက်")
+		alert("You are playing (ငါ့ရဲ့လျှို့ဝှက်ချက်)")
 }
 function song7() {
 	b=19
@@ -179,12 +332,31 @@ function song7() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s77.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ဆု -ရင်ဂို")
+		alert("You are playing (ဆု -ရင်ဂို)")
 }
 function song8() {
 	b=22
@@ -201,12 +373,31 @@ function song8() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s88.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing မျက်သွယ် - ခင်မောင်တိုး")
+		alert("You are playing (မျက်သွယ် - ခင်မောင်တိုး)")
 }
 function song9() {
 	a=25
@@ -223,12 +414,31 @@ function song9() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s99.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ဝတ်မှုန် - ခင်မောင်တိုး")
+		alert("You are playing (ဝတ်မှုန် - ခင်မောင်တိုး)")
 }
 function song0() {
 	b=28
@@ -245,12 +455,31 @@ function song0() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s00.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing အောင်ထက် - အချစ်တေးကဗျာ")
+		alert("You are playing (အောင်ထက် - အချစ်တေးကဗျာ)")
 }
 function song12() {
 	b=31
@@ -267,12 +496,31 @@ function song12() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s12.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing to the bone - pamungkas (guitar cover)")
+		alert("You are playing [to the bone - pamungkas (guitar cover)]")
 }
 function song13() {
 	b=34
@@ -289,12 +537,31 @@ function song13() {
 	s12.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s12.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing Pone Yape - မမြင့်")
+		alert("You are playing (Pone Yape - မမြင့်)")
 }
 function song14() {
 	b=37
@@ -311,12 +578,31 @@ function song14() {
 	s12.pause()
 	s13.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s14.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
-		alert("You are playing ONLY - LEEHI (guitar cover)")
+		alert("You are playing [ONLY - LEEHI (guitar cover)]")
 }
 function song15() {
 	b=40
@@ -333,12 +619,809 @@ function song15() {
 	s12.pause()
 	s13.pause()
 	s14.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		s15.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
+		alert("You are playing (အချစ်အယူခံ (ခင်မောင်တိုး))")
+}
+function song16() {
+	b=43
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s16.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing (မောင့်ဆေးကျောင်းသူ_-_ ခင်မောင်ထူး)")
+}
+function song17() {
+	b=46
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s17.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing (ဒီလိုဆိုမချစ်ဘူးကွယ် - ၀င်းဦး)")
+}
+function song18() {
+	b=49
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s18.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing (ချစ်ရဲ့လားလို့ ခဏခဏမေးတဲ့ မောင့်ကိုပင်)")
+}
+function song19() {
+	b=52
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s19.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing (ရုန်းတော်လွှတ်တော်-အေဝမ်းတင်မောင် & မေရှင်)")
+}
+function song20() {
+	b=55
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s20.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing (cant help falling in love x perfect - guitar fingerstyle cover)")
+}
+function song21() {
+	b=58
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s21.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing Htoo eain thin - Chit Thu Lat Saung - ချစ်သူ့ လက်ဆောင်")
+}
+function song23() {
+	b=61
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s23.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing [at my worst - pink sweat$ (guitar fingerstyle cover)]")
+}
+function song24() {
+	b=64
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s24.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing [Until I Found You - Stephen Sanchez - Cover (Violin)]")
+}
+function song25() {
+	b=67
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s25.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
 		alert("You are playing life goes on - bts (guitar fingerstyle cover)")
+}
+function song26() {
+	b=70
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s26.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing life goes on - bts (guitar fingerstyle cover)")
+}
+function song27() {
+	b=73
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s27.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing ေရဒီယုိကမာရြတ္-Radio Kamaryut")
+}
+function song28() {
+	b=76
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s28.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing မင္းသိဖို႔ေကာင္းတယ္ ေဇာ္ဝင္းရွိန္ ၁၉၈၇")
+}
+function song29() {
+	b=79
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s29.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing life goes on - bts (guitar fingerstyle cover)")
+}
+function song30() {
+	b=82
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s30.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing အချစ်မျက်ဝန်း - Lလွန်းဝါ")
+}
+function song31() {
+	b=85
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s31.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing ဒူးထောက်ပြီ - ဝိုင်ဝိုင်း")
+}
+function song32() {
+	b=88
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	
+	s34.pause()
+	s35.pause()
+	s36.pause()
+		s32.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing အေးချမ်းမေ -တစ်စစီကျိုးပဲ့နေတယ်")
+}
+function song34() {
+	b=91
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	
+	s35.pause()
+	s36.pause()
+		s34.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing [Soe Thu - ကြည်ဖြူပါတော့ (ကြည်ဖြူပါ မေရယ်)]")
+}
+function song35() {
+	b=94
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s36.pause()
+		s35.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing Shwe Mann Thu - Khin Maung Htoo")
+}
+function song36() {
+	b=97
+	s11.pause()
+	s22.pause()
+	s33.pause()
+	s44.pause()
+	s55.pause()
+	s66.pause()
+	s77.pause()
+	s88.pause()
+	s99.pause()
+	s00.pause()
+	s12.pause()
+	s13.pause()
+	s14.pause()
+	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	
+		s36.play()
+		searchsong.style.display = "none"
+		hi.style.filter = "none";
+		start.style.display = "inline-block"
+		stop1.style.display = "none"
+		alert("You are playing [ငွေသော်တာရောင်ခြည် (ဆရာမ) ဘိုဘိုဟန်  Ngwe thawdar yaung chi (Bo Bo Han)]")
 }
 function No() {
 	a=1
@@ -361,6 +1444,25 @@ function start1() {
 	s13.pause()
 	s14.pause()
 	s15.pause()
+	s16.pause()
+	s17.pause()
+	s18.pause()
+	s19.pause()
+	s20.pause()
+	s21.pause()
+	s23.pause()
+	s24.pause()
+	s25.pause()
+	s26.pause()
+	s27.pause()
+	s28.pause()
+	s29.pause()
+	s30.pause()
+	s31.pause()
+	s32.pause()
+	s34.pause()
+	s35.pause()
+	s36.pause()
 		stop1.style.display = "inline-block"
 		start.style.display = "none"
 		alert("song pause")
@@ -520,6 +1622,215 @@ function stop11() {
 	if (b==41) {
 		b=40
 	}
+
+
+	if (b==44) {
+		s16.play()
+	}
+	else {
+		s16.pause()
+	}
+	if (b==44) {
+		b=43
+	}
+
+
+	if (b==47) {
+		s17.play()
+	}
+	else {
+		s17.pause()
+	}
+	if (b==47) {
+		b=46
+	}
+
+
+	if (b==50) {
+		s18.play()
+	}
+	else {
+		s18.pause()
+	}
+	if (b==50) {
+		b=49
+	}
+
+
+	if (b==53) {
+		s19.play()
+	}
+	else {
+		s19.pause()
+	}
+	if (b==53) {
+		b=52
+	}
+
+
+	if (b==56) {
+		s20.play()
+	}
+	else {
+		s20.pause()
+	}
+	if (b==56) {
+		b=55
+	}
+
+
+	if (b==59) {
+		s21.play()
+	}
+	else {
+		s21.pause()
+	}
+	if (b==59) {
+		b=58
+	}
+
+
+	if (b==62) {
+		s23.play()
+	}
+	else {
+		s23.pause()
+	}
+	if (b==62) {
+		b=61
+	}
+
+
+	if (b==65) {
+		s24.play()
+	}
+	else {
+		s24.pause()
+	}
+	if (b==65) {
+		b=64
+	}
+
+
+	if (b==68) {
+		s25.play()
+	}
+	else {
+		s25.pause()
+	}
+	if (b==68) {
+		b=67
+	}
+
+
+	if (b==71) {
+		s26.play()
+	}
+	else {
+		s26.pause()
+	}
+	if (b==71) {
+		b=70
+	}
+
+
+	if (b==74) {
+		s27.play()
+	}
+	else {
+		s27.pause()
+	}
+	if (b==74) {
+		b=73
+	}
+
+
+	if (b==77) {
+		s28.play()
+	}
+	else {
+		s28.pause()
+	}
+	if (b==77) {
+		b=76
+	}
+
+
+	if (b==80) {
+		s29.play()
+	}
+	else {
+		s29.pause()
+	}
+	if (b==80) {
+		b=79
+	}
+
+
+	if (b==83) {
+		s30.play()
+	}
+	else {
+		s30.pause()
+	}
+	if (b==83) {
+		b=82
+	}
+
+
+	if (b==86) {
+		s31.play()
+	}
+	else {
+		s31.pause()
+	}
+	if (b==86) {
+		b=85
+	}
+
+
+	if (b==89) {
+		s32.play()
+	}
+	else {
+		s32.pause()
+	}
+	if (b==89) {
+		b=88
+	}
+
+
+	if (b==92) {
+		s34.play()
+	}
+	else {
+		s34.pause()
+	}
+	if (b==92) {
+		b=91
+	}
+
+
+	if (b==95) {
+		s35.play()
+	}
+	else {
+		s35.pause()
+	}
+	if (b==95) {
+		b=94
+	}
+
+
+	if (b==98) {
+		s36.play()
+	}
+	else {
+		s36.pause()
+	}
+	if (b==98) {
+		b=97
+	}
 		start.style.display = "inline-block"
 		stop1.style.display = "none"
 		alert("song start playing play")
@@ -542,6 +1853,25 @@ function volup(){
 		s13.volume = 0.1
 		s14.volume = 0.1
 		s15.volume = 0.1
+		s16.volume = 0.1
+		s17.volume = 0.1
+		s18.volume = 0.1
+		s19.volume = 0.1
+		s20.volume = 0.1
+		s21.volume = 0.1
+		s23.volume = 0.1
+		s24.volume = 0.1
+		s25.volume = 0.1
+		s26.volume = 0.1
+		s27.volume = 0.1
+		s28.volume = 0.1
+		s29.volume = 0.1
+		s30.volume = 0.1
+		s31.volume = 0.1
+		s32.volume = 0.1
+		s34.volume = 0.1
+		s35.volume = 0.1
+		s36.volume = 0.1
 	}
 	if (vol==2) {
 		s11.volume = 0.2
@@ -558,6 +1888,25 @@ function volup(){
 		s13.volume = 0.2
 		s14.volume = 0.2
 		s15.volume = 0.2
+		s16.volume = 0.2
+		s17.volume = 0.2
+		s18.volume = 0.2
+		s19.volume = 0.2
+		s20.volume = 0.2
+		s21.volume = 0.2
+		s23.volume = 0.2
+		s24.volume = 0.2
+		s25.volume = 0.2
+		s26.volume = 0.2
+		s27.volume = 0.2
+		s28.volume = 0.2
+		s29.volume = 0.2
+		s30.volume = 0.2
+		s31.volume = 0.2
+		s32.volume = 0.2
+		s34.volume = 0.2
+		s35.volume = 0.2
+		s36.volume = 0.2
 	}
 	if (vol==3) {
 		s11.volume = 0.3
@@ -574,6 +1923,25 @@ function volup(){
 		s13.volume = 0.3
 		s14.volume = 0.3
 		s15.volume = 0.3
+		s16.volume = 0.3
+		s17.volume = 0.3
+		s18.volume = 0.3
+		s19.volume = 0.3
+		s20.volume = 0.3
+		s21.volume = 0.3
+		s23.volume = 0.3
+		s24.volume = 0.3
+		s25.volume = 0.3
+		s26.volume = 0.3
+		s27.volume = 0.3
+		s28.volume = 0.3
+		s29.volume = 0.3
+		s30.volume = 0.3
+		s31.volume = 0.3
+		s32.volume = 0.3
+		s34.volume = 0.3
+		s35.volume = 0.3
+		s36.volume = 0.3
 	}
 	if (vol==4) {
 		s11.volume = 0.4
@@ -590,6 +1958,25 @@ function volup(){
 		s13.volume = 0.4
 		s14.volume = 0.4
 		s15.volume = 0.4
+		s16.volume = 0.4
+		s17.volume = 0.4
+		s18.volume = 0.4
+		s19.volume = 0.4
+		s20.volume = 0.4
+		s21.volume = 0.4
+		s23.volume = 0.4
+		s24.volume = 0.4
+		s25.volume = 0.4
+		s26.volume = 0.4
+		s27.volume = 0.4
+		s28.volume = 0.4
+		s29.volume = 0.4
+		s30.volume = 0.4
+		s31.volume = 0.4
+		s32.volume = 0.4
+		s34.volume = 0.4
+		s35.volume = 0.4
+		s36.volume = 0.4
 	}
 	if (vol==5) {
 		s11.volume = 0.5
@@ -606,6 +1993,25 @@ function volup(){
 		s13.volume = 0.5
 		s14.volume = 0.5
 		s15.volume = 0.5
+		s16.volume = 0.5
+		s17.volume = 0.5
+		s18.volume = 0.5
+		s19.volume = 0.5
+		s20.volume = 0.5
+		s21.volume = 0.5
+		s23.volume = 0.5
+		s24.volume = 0.5
+		s25.volume = 0.5
+		s26.volume = 0.5
+		s27.volume = 0.5
+		s28.volume = 0.5
+		s29.volume = 0.5
+		s30.volume = 0.5
+		s31.volume = 0.5
+		s32.volume = 0.5
+		s34.volume = 0.5
+		s35.volume = 0.5
+		s36.volume = 0.5
 	}
 	if (vol==6) {
 		s11.volume = 0.6
@@ -622,6 +2028,25 @@ function volup(){
 		s13.volume = 0.6
 		s14.volume = 0.6
 		s15.volume = 0.6
+		s16.volume = 0.6
+		s17.volume = 0.6
+		s18.volume = 0.6
+		s19.volume = 0.6
+		s20.volume = 0.6
+		s21.volume = 0.6
+		s23.volume = 0.6
+		s24.volume = 0.6
+		s25.volume = 0.6
+		s26.volume = 0.6
+		s27.volume = 0.6
+		s28.volume = 0.6
+		s29.volume = 0.6
+		s30.volume = 0.6
+		s31.volume = 0.6
+		s32.volume = 0.6
+		s34.volume = 0.6
+		s35.volume = 0.6
+		s36.volume = 0.6
 	}
 	if (vol==7) {
 		s11.volume = 0.7
@@ -638,6 +2063,25 @@ function volup(){
 		s13.volume = 0.7
 		s14.volume = 0.7
 		s15.volume = 0.7
+		s16.volume = 0.7
+		s17.volume = 0.7
+		s18.volume = 0.7
+		s19.volume = 0.7
+		s20.volume = 0.7
+		s21.volume = 0.7
+		s23.volume = 0.7
+		s24.volume = 0.7
+		s25.volume = 0.7
+		s26.volume = 0.7
+		s27.volume = 0.7
+		s28.volume = 0.7
+		s29.volume = 0.7
+		s30.volume = 0.7
+		s31.volume = 0.7
+		s32.volume = 0.7
+		s34.volume = 0.7
+		s35.volume = 0.7
+		s36.volume = 0.7
 	}
 	if (vol==8) {
 		s11.volume = 0.8
@@ -654,6 +2098,25 @@ function volup(){
 		s13.volume = 0.8
 		s14.volume = 0.8
 		s15.volume = 0.8
+		s16.volume = 0.8
+		s17.volume = 0.8
+		s18.volume = 0.8
+		s19.volume = 0.8
+		s20.volume = 0.8
+		s21.volume = 0.8
+		s23.volume = 0.8
+		s24.volume = 0.8
+		s25.volume = 0.8
+		s26.volume = 0.8
+		s27.volume = 0.8
+		s28.volume = 0.8
+		s29.volume = 0.8
+		s30.volume = 0.8
+		s31.volume = 0.8
+		s32.volume = 0.8
+		s34.volume = 0.8
+		s35.volume = 0.8
+		s36.volume = 0.8
 	}
 	if (vol==9) {
 		s11.volume = 0.9
@@ -670,6 +2133,25 @@ function volup(){
 		s13.volume = 0.9
 		s14.volume = 0.9
 		s15.volume = 0.9
+		s16.volume = 0.9
+		s17.volume = 0.9
+		s18.volume = 0.9
+		s19.volume = 0.9
+		s20.volume = 0.9
+		s21.volume = 0.9
+		s23.volume = 0.9
+		s24.volume = 0.9
+		s25.volume = 0.9
+		s26.volume = 0.9
+		s27.volume = 0.9
+		s28.volume = 0.9
+		s29.volume = 0.9
+		s30.volume = 0.9
+		s31.volume = 0.9
+		s32.volume = 0.9
+		s34.volume = 0.9
+		s35.volume = 0.9
+		s36.volume = 0.9
 	}
 	if (vol==10) {
 		s11.volume = 1
@@ -686,6 +2168,25 @@ function volup(){
 		s13.volume = 1
 		s14.volume = 1
 		s15.volume = 1
+		s16.volume = 1
+		s17.volume = 1
+		s18.volume = 1
+		s19.volume = 1
+		s20.volume = 1
+		s21.volume = 1
+		s23.volume = 1
+		s24.volume = 1
+		s25.volume = 1
+		s26.volume = 1
+		s27.volume = 1
+		s28.volume = 1
+		s29.volume = 1
+		s30.volume = 1
+		s31.volume = 1
+		s32.volume = 1
+		s34.volume = 1
+		s35.volume = 1
+		s36.volume = 1
 	}
 	if (vol==10) {
 		
@@ -714,6 +2215,25 @@ function voldown() {
 		s13.volume = 0.1
 		s14.volume = 0.1
 		s15.volume = 0.1
+		s16.volume = 0.1
+		s17.volume = 0.1
+		s18.volume = 0.1
+		s19.volume = 0.1
+		s20.volume = 0.1
+		s21.volume = 0.1
+		s23.volume = 0.1
+		s24.volume = 0.1
+		s25.volume = 0.1
+		s26.volume = 0.1
+		s27.volume = 0.1
+		s28.volume = 0.1
+		s29.volume = 0.1
+		s30.volume = 0.1
+		s31.volume = 0.1
+		s32.volume = 0.1
+		s34.volume = 0.1
+		s35.volume = 0.1
+		s36.volume = 0.1
 	}
 	if (vol==2) {
 		s11.volume = 0.2
@@ -730,6 +2250,25 @@ function voldown() {
 		s13.volume = 0.2
 		s14.volume = 0.2
 		s15.volume = 0.2
+		s16.volume = 0.2
+		s17.volume = 0.2
+		s18.volume = 0.2
+		s19.volume = 0.2
+		s20.volume = 0.2
+		s21.volume = 0.2
+		s23.volume = 0.2
+		s24.volume = 0.2
+		s25.volume = 0.2
+		s26.volume = 0.2
+		s27.volume = 0.2
+		s28.volume = 0.2
+		s29.volume = 0.2
+		s30.volume = 0.2
+		s31.volume = 0.2
+		s32.volume = 0.2
+		s34.volume = 0.2
+		s35.volume = 0.2
+		s36.volume = 0.2
 	}
 	if (vol==3) {
 		s11.volume = 0.3
@@ -746,6 +2285,25 @@ function voldown() {
 		s13.volume = 0.3
 		s14.volume = 0.3
 		s15.volume = 0.3
+		s16.volume = 0.3
+		s17.volume = 0.3
+		s18.volume = 0.3
+		s19.volume = 0.3
+		s20.volume = 0.3
+		s21.volume = 0.3
+		s23.volume = 0.3
+		s24.volume = 0.3
+		s25.volume = 0.3
+		s26.volume = 0.3
+		s27.volume = 0.3
+		s28.volume = 0.3
+		s29.volume = 0.3
+		s30.volume = 0.3
+		s31.volume = 0.3
+		s32.volume = 0.3
+		s34.volume = 0.3
+		s35.volume = 0.3
+		s36.volume = 0.3
 	}
 	if (vol==4) {
 		s11.volume = 0.4
@@ -762,6 +2320,25 @@ function voldown() {
 		s13.volume = 0.4
 		s14.volume = 0.4
 		s15.volume = 0.4
+		s16.volume = 0.4
+		s17.volume = 0.4
+		s18.volume = 0.4
+		s19.volume = 0.4
+		s20.volume = 0.4
+		s21.volume = 0.4
+		s23.volume = 0.4
+		s24.volume = 0.4
+		s25.volume = 0.4
+		s26.volume = 0.4
+		s27.volume = 0.4
+		s28.volume = 0.4
+		s29.volume = 0.4
+		s30.volume = 0.4
+		s31.volume = 0.4
+		s32.volume = 0.4
+		s34.volume = 0.4
+		s35.volume = 0.4
+		s36.volume = 0.4
 	}
 	if (vol==5) {
 		s11.volume = 0.5
@@ -778,6 +2355,25 @@ function voldown() {
 		s13.volume = 0.5
 		s14.volume = 0.5
 		s15.volume = 0.5
+		s16.volume = 0.5
+		s17.volume = 0.5
+		s18.volume = 0.5
+		s19.volume = 0.5
+		s20.volume = 0.5
+		s21.volume = 0.5
+		s23.volume = 0.5
+		s24.volume = 0.5
+		s25.volume = 0.5
+		s26.volume = 0.5
+		s27.volume = 0.5
+		s28.volume = 0.5
+		s29.volume = 0.5
+		s30.volume = 0.5
+		s31.volume = 0.5
+		s32.volume = 0.5
+		s34.volume = 0.5
+		s35.volume = 0.5
+		s36.volume = 0.5
 	}
 	if (vol==6) {
 		s11.volume = 0.6
@@ -794,6 +2390,25 @@ function voldown() {
 		s13.volume = 0.6
 		s14.volume = 0.6
 		s15.volume = 0.6
+		s16.volume = 0.6
+		s17.volume = 0.6
+		s18.volume = 0.6
+		s19.volume = 0.6
+		s20.volume = 0.6
+		s21.volume = 0.6
+		s23.volume = 0.6
+		s24.volume = 0.6
+		s25.volume = 0.6
+		s26.volume = 0.6
+		s27.volume = 0.6
+		s28.volume = 0.6
+		s29.volume = 0.6
+		s30.volume = 0.6
+		s31.volume = 0.6
+		s32.volume = 0.6
+		s34.volume = 0.6
+		s35.volume = 0.6
+		s36.volume = 0.6
 	}
 	if (vol==7) {
 		s11.volume = 0.7
@@ -810,6 +2425,25 @@ function voldown() {
 		s13.volume = 0.7
 		s14.volume = 0.7
 		s15.volume = 0.7
+		s16.volume = 0.7
+		s17.volume = 0.7
+		s18.volume = 0.7
+		s19.volume = 0.7
+		s20.volume = 0.7
+		s21.volume = 0.7
+		s23.volume = 0.7
+		s24.volume = 0.7
+		s25.volume = 0.7
+		s26.volume = 0.7
+		s27.volume = 0.7
+		s28.volume = 0.7
+		s29.volume = 0.7
+		s30.volume = 0.7
+		s31.volume = 0.7
+		s32.volume = 0.7
+		s34.volume = 0.7
+		s35.volume = 0.7
+		s36.volume = 0.7
 	}
 	if (vol==8) {
 		s11.volume = 0.8
@@ -826,6 +2460,25 @@ function voldown() {
 		s13.volume = 0.8
 		s14.volume = 0.8
 		s15.volume = 0.8
+		s16.volume = 0.8
+		s17.volume = 0.8
+		s18.volume = 0.8
+		s19.volume = 0.8
+		s20.volume = 0.8
+		s21.volume = 0.8
+		s23.volume = 0.8
+		s24.volume = 0.8
+		s25.volume = 0.8
+		s26.volume = 0.8
+		s27.volume = 0.8
+		s28.volume = 0.8
+		s29.volume = 0.8
+		s30.volume = 0.8
+		s31.volume = 0.8
+		s32.volume = 0.8
+		s34.volume = 0.8
+		s35.volume = 0.8
+		s36.volume = 0.8
 	}
 	if (vol==9) {
 		s11.volume = 0.9
@@ -842,6 +2495,25 @@ function voldown() {
 		s13.volume = 0.9
 		s14.volume = 0.9
 		s15.volume = 0.9
+		s16.volume = 0.9
+		s17.volume = 0.9
+		s18.volume = 0.9
+		s19.volume = 0.9
+		s20.volume = 0.9
+		s21.volume = 0.9
+		s23.volume = 0.9
+		s24.volume = 0.9
+		s25.volume = 0.9
+		s26.volume = 0.9
+		s27.volume = 0.9
+		s28.volume = 0.9
+		s29.volume = 0.9
+		s30.volume = 0.9
+		s31.volume = 0.9
+		s32.volume = 0.9
+		s34.volume = 0.9
+		s35.volume = 0.9
+		s36.volume = 0.9
 	}
 	if (vol==0) {
 		s11.volume = 0
@@ -858,6 +2530,25 @@ function voldown() {
 		s13.volume = 0
 		s14.volume = 0
 		s15.volume = 0
+		s16.volume = 0
+		s17.volume = 0
+		s18.volume = 0
+		s19.volume = 0
+		s20.volume = 0
+		s21.volume = 0
+		s23.volume = 0
+		s24.volume = 0
+		s25.volume = 0
+		s26.volume = 0
+		s27.volume = 0
+		s28.volume = 0
+		s29.volume = 0
+		s30.volume = 0
+		s31.volume = 0
+		s32.volume = 0
+		s34.volume = 0
+		s35.volume = 0
+		s36.volume = 0
 	}
 	if (vol==0) {
 		

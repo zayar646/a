@@ -34,7 +34,7 @@ var s31 = new Audio("../League-of-Introverts/pj song1/ဒူးထောက်�
 var s32 = new Audio("../League-of-Introverts/pj song1/အေးချမ်းမေ -တစ်စစီကျိုးပဲ့နေတယ်.mp3")
 var s34 = new Audio("../League-of-Introverts/pj song1/Soe Thu - ကြည်ဖြူပါတော့ (ကြည်ဖြူပါ မေရယ်).mp3")
 var s35 = new Audio("../League-of-Introverts/pj song1/Shwe Mann Thu - Khin Maung Htoo.mp3")
-var s36 = new Audio("../League-of-Introverts/pj song1/ငွေသော်တာရောင်ခြည် (ဆရာမ) ဘိုဘိုဟန်  Ngwe thawdar yaung chi (Bo Bo Han) (Lyrics video)  #myanmarsong.mp3")
+var s36 = new Audio("../League-of-Introverts/pj song1/ငွေသော်တာရောင်ခြည် (ဆရာမ) ဘိုဘိုဟန်.mp3")
 
 		s11.volume = 0.5
 		s22.volume = 0.5

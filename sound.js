@@ -69,6 +69,39 @@ var s36 = new Audio("../League-of-Introverts/pj song1/ငွေသော်တ�
 		s34.volume = 0.5
 		s35.volume = 0.5
 		s36.volume = 0.5
+		s11.preload
+		s22.preload
+		s33.preload
+		s44.preload
+		s55.preload
+		s66.preload
+		s77.preload
+		s88.preload
+		s99.preload
+		s00.preload
+		s12.preload
+		s13.preload
+		s14.preload
+		s15.preload
+		s16.preload
+		s17.preload
+		s18.preload
+		s19.preload
+		s20.preload
+		s21.preload
+		s23.preload
+		s24.preload
+		s25.preload
+		s26.preload
+		s27.preload
+		s28.preload
+		s29.preload
+		s30.preload
+		s31.preload
+		s32.preload
+		s34.preload
+		s35.preload
+		s36.preload
 function song1() {
 	b=1
 	s22.pause()
@@ -104,6 +137,7 @@ function song1() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s11.load()
 		s11.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -146,6 +180,7 @@ function song2() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s22.load()
 		s22.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -187,6 +222,7 @@ function song3() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s33.load()
 		s33.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -228,6 +264,7 @@ function song4() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s44.load()
 		s44.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -269,6 +306,7 @@ function song5() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s55.load()
 		s55.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -310,6 +348,7 @@ function song6() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s66.load()
 		s66.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -351,6 +390,7 @@ function song7() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s77.load()
 		s77.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -392,6 +432,7 @@ function song8() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s88.load()
 		s88.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -433,6 +474,7 @@ function song9() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s99.load()
 		s99.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -474,6 +516,7 @@ function song0() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s00.load()
 		s00.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -515,6 +558,7 @@ function song12() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s12.load()
 		s12.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -556,7 +600,8 @@ function song13() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
-		s12.play()
+		s13.load()
+		s13.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
 		start.style.display = "inline-block"
@@ -597,6 +642,7 @@ function song14() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s14.load()
 		s14.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -638,6 +684,7 @@ function song15() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s15.load()
 		s15.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -679,6 +726,7 @@ function song16() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s16.load()
 		s16.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -720,6 +768,7 @@ function song17() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s17.load()
 		s17.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -761,6 +810,7 @@ function song18() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+	   	s18.load()
 		s18.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -802,6 +852,7 @@ function song19() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s19.load()
 		s19.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -843,6 +894,7 @@ function song20() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s20.load()
 		s20.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -884,6 +936,7 @@ function song21() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s21.load()
 		s21.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -925,6 +978,7 @@ function song23() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s23.load()
 		s23.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -966,6 +1020,7 @@ function song24() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s24.load()
 		s24.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1007,6 +1062,7 @@ function song25() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s25.load()
 		s25.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1048,6 +1104,7 @@ function song26() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s26.load()
 		s26.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1089,6 +1146,7 @@ function song27() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s27.load()
 		s27.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1130,6 +1188,7 @@ function song28() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s28.load()
 		s28.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1171,6 +1230,7 @@ function song29() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s29.load()
 		s29.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1212,6 +1272,7 @@ function song30() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s30.load()
 		s30.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1253,6 +1314,7 @@ function song31() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s31.load()
 		s31.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1294,6 +1356,7 @@ function song32() {
 	s34.pause()
 	s35.pause()
 	s36.pause()
+		s32.load()
 		s32.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1335,6 +1398,7 @@ function song34() {
 	
 	s35.pause()
 	s36.pause()
+		s34.load()
 		s34.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1375,6 +1439,7 @@ function song35() {
 	s32.pause()
 	s34.pause()
 	s36.pause()
+		s35.load()
 		s35.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";
@@ -1415,7 +1480,7 @@ function song36() {
 	s32.pause()
 	s34.pause()
 	s35.pause()
-	
+		s36.load()
 		s36.play()
 		searchsong.style.display = "none"
 		hi.style.filter = "none";

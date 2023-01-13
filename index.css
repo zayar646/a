@@ -114,11 +114,6 @@ footer{
 .thirdleftbox{
 	width: 60%;
 }
-@media only screen and (max-width:500px) {
-	.second{
-		height: 1100px;
-	}
-}
 @media only screen and (max-width:600px) {
 	.first{
 		height: 280px;
@@ -152,7 +147,7 @@ footer{
 	    margin-top: 35px;
 	}
 	.second {
-    	height: 980px;
+    	    height: 1080px;
 	}
 	.secondbottombox {
     display: flex;
